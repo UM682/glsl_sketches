@@ -2,9 +2,16 @@
   <Artwork />
 </template>
 
+
 <script>
-export default {};
+import Artwork from "~/components/Artwork";
+export default {
+  components: {
+    Artwork,
+  },
+};
 </script>
+
 
 <style>
 .container {

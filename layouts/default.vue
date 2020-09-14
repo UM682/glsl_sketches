@@ -5,11 +5,9 @@
   </div>
 </template>
 <script>
-import Artwork from "~/components/Artwork";
 import NavBar from "~/components/NavBar.vue";
 export default {
   components: {
-    Artwork,
     NavBar,
   },
   watch: {

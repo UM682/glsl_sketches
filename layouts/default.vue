@@ -1,26 +1,23 @@
 <template>
   <div>
-    <NavBar />
+    <Navlink />
     <Nuxt />
   </div>
 </template>
 <script>
-import NavBar from "~/components/NavBar.vue";
+import Navlink from "~/components/Navlink.vue";
+
 export default {
   components: {
-    NavBar,
-  },
-  watch: {
-    // routeが変わるときにシーンを変えるなどなにか処理する
-    "$route.name": function (_new, _old) {},
+    Navlink,
   },
 };
 </script>
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -28,7 +25,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 
-  background-color: #eeeeee;
+  background-color: alpha;
 }
 
 *,

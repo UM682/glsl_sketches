@@ -1,5 +1,5 @@
 <template>
-  <nav class="ph3 ph5-ns" style="background-color:#333333">
+  <nav class="ph3 ph5-ns" style="background-color:#333333;">
     <div class="nowrap">
       <a
         class="link dim moon-gray { color: #CCCCCC } f5 f4-ns dib mr3"

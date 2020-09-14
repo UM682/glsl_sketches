@@ -25,7 +25,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 
-  background-color: alpha;
+  background-color: #333333;
 }
 
 *,

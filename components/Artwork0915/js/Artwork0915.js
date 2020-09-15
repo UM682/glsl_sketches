@@ -65,11 +65,11 @@ export default class Artwork0915{
 			// MATERIALS
 
 			materials = generateMaterials();
-			current_material = "shiny";
+			current_material = "plastic";
 
 			// MARCHING CUBES
 
-			resolution = 28;
+			resolution = 54;
 
 			effect = new MarchingCubes( resolution, materials[ current_material ].m, true, true );
 			effect.position.set( 0, 0, 0 );
